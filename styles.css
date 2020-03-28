@@ -1,0 +1,20 @@
+body {
+    min-width: 250px;
+    margin: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px;
+    list-style-type: none;
+    background-color: rgb(224, 217, 208);
+    font-size: 20px;
+    transition: ease-in-out;
+}
