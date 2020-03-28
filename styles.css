@@ -10,6 +10,7 @@ ul{
     padding:0;
 }
 ul li {
+   
     cursor: pointer;
     position: relative;
     padding: 12px;
@@ -17,4 +18,15 @@ ul li {
     background-color: rgb(224, 217, 208);
     font-size: 20px;
     transition: ease-in-out;
+
+    /* make the list items not selectable */
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+/* set different colors for the odd and even lists */
+ul li:nth-child(odd){
+background:#f9f9f9;
+}
+  
