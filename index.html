@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <div class="container">
     <div id="mydiv" class="header">
-        <h2> My To Do List</h2>
+        <h1> My To Do List</h1>
         <input type="text" id="mytext" placeholder="Title">
         <span onclick="newElement()" class="addnew">Add</span>
         
     </div>
+    <hr>
     <ul>
         <li>Start new project</li>
-        <li>Update my portfolio</li>
+        <li class="checked">Update my portfolio</li>
         <li>Go to the grocery store</li>
         <li>Read a book</li>
     </ul>
+</div>
+<script src="scripts.js"></script>
 </body>
 </html>
